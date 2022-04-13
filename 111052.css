@@ -1,0 +1,192 @@
+body {
+	background-color: #000;
+  border: 1px solid #f2f2f2;    /* Applique un cadre pour distinguer clairement ce qu'on manipule */
+  width: 732px;              /* Définit une largeur fixe à l'élément, pour pouvoir le centrer sur la page... */
+  margin: 0 auto;            /* Petite astuce CSS pour centrer un élément (nécessite de fixer la largeur !) */
+	color: #fff;
+	font-size: 14px;
+}
+
+
+h1 {
+  color: #3387CC;            /* Applique un peu de couleur à la police de caractères, attention : la couleur change en fonction du fond ! */
+  text-align: center;        /* Centre le texte "nom du troll" */
+	margin-top: 10px;
+}
+
+ul#pjLinks {
+  list-style-type: none;     /* Supprime les puces en face des liens */
+  padding-left: 90px;           /* "Annule" l'indentation automatique de la liste, pour caler le texte complètement à gauche */
+  text-align: center;        /* Centre le texte vis à vis du conteneur (la liste "pjLinks"), délimité par le cadre */
+}
+
+ul#pjLinks li {
+  display: inline;           /* Affiche les différents éléments du conteneur sur une même ligne */
+  padding: 10px;             /* Donne un peu d'espace aux liens, applique des "marges intérieures" */
+}
+
+a {
+  text-decoration: none;     /* Supprime le style par défaut "souligné" des liens */
+  font-weight: bold;         /* Applique l'effet "gras" sur la police */
+  color: #66CC31;
+}
+
+a:hover {      /* L'attribut "hover" s'applique aux liens ("a") sur lesquels l'utilisateur passe la souris */
+  color: #fc0;            /* On change la couleur lors des "survols de liens" */
+}
+
+#formView {
+  border: 1px solid #000;    /* On encadre, ne pas hésiter à jouer avec les différentes bordures possibles... */
+  position: fixed;           /* Positionnement absolu et fixe (lors du défilement) du formulaire "Trõll n° : [80000] [Afficher]" */
+  top: 0;                    /* Fixe le formulaire dans le coin, en haut... */
+  right: 0;                  /* ... à droite. */
+  padding: 10px;             /* Eloigne une peu les éléments du bord */
+  text-align: center;        /* Centre les éléments dans le "cadre" */
+  width: 180px;              /* Définit une largeur fixe à l'élément, une idée derrière la tête pour plus tard... */
+}
+
+#IDPJ label {
+  display: none;           /* Fait disparaitre l'intitulé "Trõll n° : " */
+}
+
+#IDPJ input {
+  width: 50px;               /* Largeur de la zone de saisie du "numéro" du troll à afficher */
+  text-align: center;        /* Centre le "numéro du troll" dans le champ <input> du formulaire */
+}
+
+form#formView .submit {
+  margin-top: 10px;          /* "Décolle" le bouton "Afficher" des éléments du dessus */
+}
+
+form#formView .submit input {
+  background-color: #FDF1B8; /* Applique un fond au bouton "Afficher", on peut lui appliquer n'importe quel style ! */
+}
+
+#formView {
+	display: none;
+}
+
+h2 {
+  display: none;             /* Fait disparaitre les titres "Son Profil Général" et "Description", à vos risques et périls */
+}
+
+#profil {
+	background-image: url('https://games.mountyhall.com/MH_Blasons/Blason_PJ/111052');
+	background-repeat: no-repeat;
+	background-position: right 0px top 30px;
+  margin-top: 20px;
+  padding-left: 20px;             /* "Décolle" la liste des bords */
+  line-height: 16px;         /* Donne davantage d'air à la liste */
+}
+
+dt {
+  float: left;               /* Pour que les informations se trouvent sur la même que leur intitulé */
+  font-weight: bold;         /* Fait ressortir les intitulés de la description du profil, génère un léger décalage dt - dd */
+  margin-top: -1px;          /* Ré-alignement dt - dd */
+	color: #3387C5;
+}
+
+dt:first-letter, h1:first-letter {
+	color: #FC0;	/* pour firefox/opera uniquement */
+	font-weight: bold;
+}
+
+h { display: none; }				/* Cache alimentation Zoryazilla */
+
+dd {
+  text-indent: 10px;         /* Décolle un peu les valeurs des intitulés */
+}
+
+dt.blason, .guilde, dd.blason {
+  display: none;             /* Fait disparaitre les trucs inutiles. */
+}
+
+dd.numero span#envoiMessage {
+  display: block;            /* Affichage du lien "[Envoyer un message à ce Trõll]" sur une nouvelle ligne */
+}
+
+.email {
+  display: none;             /* Personnellement je n'affiche pas mon adresse mail, une ligne de gagnée pour alléger le profil */
+}
+
+dt.distinctions, dt.maladie, dt.equipement, dt.possessions {
+  float: none;               /* Petit problème avec les listes "distinctions", "équipement" et "possessions" réglé ! */
+  padding-left: 2px;         /* Rattrape le décalage provoqué par le précédent "padding" sur les autres éléments de la liste */
+}
+
+dd.distinctions ul, dd.maladie ul, dd.equipement ul, dd.possessions ul  {
+  list-style-type: none;     /* On supprime les puces de la liste des "distinctions" */
+  padding: 2px 0;            /* Rattrape une indentation un peu trop généreuse */
+	margin: 0px; 
+}
+
+dd.equipement li span.magie {
+  color: #fc0;            /* On fait ressortir les templates de notre équipement */
+/*  font-weight: bold;		/* */
+}
+
+.numero, .race, .creation, .niveau, .guilde, .mouches, .meurtres, .deces {
+  padding: 2px;              /* Donne un peu d'air à la liste */
+}
+
+
+#disclaimer {
+  font-size: small;
+  font-weight: normal;
+	color: #999;
+	text-align: center;
+	border-bottom: 2px solid #999;
+}
+
+#description {
+  padding: 20px;
+}
+
+#description b {
+	color: #3387C5;
+	font-weight: normal;
+}
+#description i {
+	color: #66CC31;
+}
+#description u {
+	color: #fc0;
+	text-decoration: none;
+}
+#description s {
+	color: #999;
+	text-decoration: none;
+}
+
+#description blockquote {
+	width: 99%;
+	float: top;
+	margin: 10px 0 5px 0;
+	padding: 5px;
+	border: 1px solid transparent; /* on ne veut pas voir tout bouger a chaque survol */
+}
+
+#description blockquote:hover {
+/*	border: 1px solid #E63116; /* pour voir ce qu'on fait */ 
+	background: #111;
+}
+
+#description ol {
+	list-style-type: none !important;
+	margin: 0px;
+	padding: 10px 0;            /* Rattrape une indentation un peu trop généreuse */
+	color: #fc0;
+}
+
+#description li {
+	color: #fff;
+	margin: 0px;
+	padding-left: 15px;
+/*	border: 1px solid #E63116; /* pour voir ce qu'on fait */ 
+	background: #111;
+}
+/*
+#description blockquote blockquote{
+	width: 100%;
+}
+*/
