@@ -52,53 +52,53 @@
 	"ascents": [
 		{
 			"id": 1,
-			"boulder": 1,
+			"boulderId": 1,
 			"completed": false
 		},
 		{
 			"id": 2,
-			"boulder": 4,
+			"boulderId": 4,
 			"name": "an offer you can't refuse",
 			"completed": true
 		},
 		{
 			"id": 3,
-			"boulder": 2,
+			"boulderId": 2,
 			"completed": true
 		},
 		{
 			"id": 4,
-			"boulder": 1,
+			"boulderId": 1,
 			"completed": false
 		},
 		{
 			"id": 5,
-			"boulder": 3,
+			"boulderId": 3,
 			"completed": false
 		},
 		{
 			"id": 6,
-			"boulder": 0,
+			"boulderId": 0,
 			"completed": true
 		},
 		{
 			"id": 7,
-			"boulder": 3,
+			"boulderId": 3,
 			"completed": true
 		},
 		{
 			"id": 8,
-			"boulder": 5,
+			"boulderId": 5,
 			"completed": false
 		},
 		{
 			"id": 9,
-			"boulder": 8,
+			"boulderId": 8,
 			"completed": false
 		},
 		{
 			"id": 10,
-			"boulder": 4,
+			"boulderId": 4,
 			"completed": true
 		}
 	]
