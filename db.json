@@ -1,14 +1,105 @@
 {
-  "ascents": [
-    { "id": 1, "grade": "v0", "completed": false},
-    { "id": 2, "grade": "v4", "name": "an offer you can't refuse", "completed": true},
-    { "id": 3, "grade": "v2", "completed": true},
-    { "id": 4, "grade": "v1", "name": "Rosebud", "completed": false},
-    { "id": 5, "grade": "v3", "name": "I see deadhangs", "completed": false},
-    { "id": 6, "grade": "v0", "name": "Hasta la vista, baby!", "completed": true},
-    { "id": 7, "grade": "v3", "name": "Do ya feel lucky, punk?", "completed": true},
-    { "id": 8, "grade": "v5", "name": "May the 4th", "completed": false},
-    { "id": 9, "grade": "v8", "name": "Not in Kansas anymore", "completed": false},
-    { "id": 10, "grade": "v4", "name": "I'll be back", "completed": true}
-  ]
+	"boulders": [
+		{
+			"id": 1,
+			"grade": "v0"
+		},
+		{
+			"id": 2,
+			"grade": "v4",
+			"name": "an offer you can't refuse"
+		},
+		{
+			"id": 3,
+			"grade": "v2"
+		},
+		{
+			"id": 4,
+			"grade": "v1",
+			"name": "Rosebud"
+		},
+		{
+			"id": 5,
+			"grade": "v3",
+			"name": "I see deadhangs"
+		},
+		{
+			"id": 6,
+			"grade": "v0",
+			"name": "Hasta la vista, baby!"
+		},
+		{
+			"id": 7,
+			"grade": "v3",
+			"name": "Do ya feel lucky, punk?"
+		},
+		{
+			"id": 8,
+			"grade": "v5",
+			"name": "May the 4th"
+		},
+		{
+			"id": 9,
+			"grade": "v8",
+			"name": "Not in Kansas anymore"
+		},
+		{
+			"id": 10,
+			"grade": "v4",
+			"name": "I'll be back"
+		}
+	],
+	"ascents": [
+		{
+			"id": 1,
+			"boulder": 1,
+			"completed": false
+		},
+		{
+			"id": 2,
+			"boulder": 4,
+			"name": "an offer you can't refuse",
+			"completed": true
+		},
+		{
+			"id": 3,
+			"boulder": 2,
+			"completed": true
+		},
+		{
+			"id": 4,
+			"boulder": 1,
+			"completed": false
+		},
+		{
+			"id": 5,
+			"boulder": 3,
+			"completed": false
+		},
+		{
+			"id": 6,
+			"boulder": 0,
+			"completed": true
+		},
+		{
+			"id": 7,
+			"boulder": 3,
+			"completed": true
+		},
+		{
+			"id": 8,
+			"boulder": 5,
+			"completed": false
+		},
+		{
+			"id": 9,
+			"boulder": 8,
+			"completed": false
+		},
+		{
+			"id": 10,
+			"boulder": 4,
+			"completed": true
+		}
+	]
 }
