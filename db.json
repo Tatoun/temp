@@ -1,14 +1,14 @@
 {
   "ascents": [
-    { "id": 1, "grade": "v0", "name": "easy peasy", "completed": false },
-    { "id": 2, "grade": "v4", "name": "an offer ou can't refuse", "completed": true },
-    { "id": 3, "grade": "v2", "name": "Reservation at Malloys", "completed": true},
+    { "id": 1, "grade": "v0", "completed": false},
+    { "id": 2, "grade": "v4", "name": "an offer you can't refuse", "completed": true},
+    { "id": 3, "grade": "v2", "completed": true},
     { "id": 4, "grade": "v1", "name": "Rosebud", "completed": false},
     { "id": 5, "grade": "v3", "name": "I see deadhangs", "completed": false},
     { "id": 6, "grade": "v0", "name": "Hasta la vista, baby!", "completed": true},
     { "id": 7, "grade": "v3", "name": "Do ya feel lucky, punk?", "completed": true},
     { "id": 8, "grade": "v5", "name": "May the 4th", "completed": false},
     { "id": 9, "grade": "v8", "name": "Not in Kansas anymore", "completed": false},
-    { "id": 10, "grade": "v4", "name": "I'll be back", "completed": true },
-  ],
+    { "id": 10, "grade": "v4", "name": "I'll be back", "completed": true}
+  ]
 }
