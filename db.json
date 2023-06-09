@@ -12,113 +12,113 @@
 	"boulders": [
 		{
 			"id": 1,
-			"grade": "v0",
-			"userId": 2
+			"grade": "v0"
 		},
 		{
 			"id": 2,
 			"grade": "v4",
-			"name": "an offer you can't refuse",
-			"userId": 1
+			"name": "an offer you can't refuse"
 		},
 		{
 			"id": 3,
-			"grade": "v2",
-			"userId": 2
+			"grade": "v2"
 		},
 		{
 			"id": 4,
 			"grade": "v1",
-			"name": "Rosebud",
-			"userId": 1
+			"name": "Rosebud"
 		},
 		{
 			"id": 5,
 			"grade": "v3",
-			"name": "I see deadhangs",
-			"userId": 1
+			"name": "I see deadhangs"
 		},
 		{
 			"id": 6,
 			"grade": "v0",
-			"name": "Hasta la vista, baby!",
-			"userId": 1
+			"name": "Hasta la vista, baby!"
 		},
 		{
 			"id": 7,
 			"grade": "v3",
-			"name": "Do ya feel lucky, punk?",
-			"userId": 1
+			"name": "Do ya feel lucky, punk?"
 		},
 		{
 			"id": 8,
 			"grade": "v5",
-			"name": "May the 4th",
-			"userId": 1
+			"name": "May the 4th"
 		},
 		{
 			"id": 9,
 			"grade": "v8",
-			"name": "Not in Kansas anymore",
-			"userId": 1
+			"name": "Not in Kansas anymore"
 		},
 		{
 			"id": 10,
 			"grade": "v4",
-			"name": "I'll be back",
-			"userId": 2
+			"name": "I'll be back"
 		}
 	],
 	"ascents": [
 		{
 			"id": 1,
 			"boulderId": 1,
-			"completed": false
+			"completed": false,
+			"userId": 1
 		},
 		{
 			"id": 2,
 			"boulderId": 4,
-			"completed": true
+			"completed": true,
+			"userId": 1
 		},
 		{
 			"id": 3,
 			"boulderId": 2,
-			"completed": true
+			"completed": true,
+			"userId": 1
 		},
 		{
 			"id": 4,
 			"boulderId": 1,
-			"completed": false
+			"completed": false,
+			"userId": 1
 		},
 		{
 			"id": 5,
 			"boulderId": 3,
-			"completed": false
+			"completed": false,
+			"userId": 1
 		},
 		{
 			"id": 6,
-			"boulderId": 0,
-			"completed": true
+			"boulderId": 4,
+			"completed": true,
+			"userId": 1
 		},
 		{
 			"id": 7,
 			"boulderId": 3,
-			"completed": true
+			"completed": true,
+			"userId": 2
 		},
 		{
 			"id": 8,
 			"boulderId": 5,
-			"completed": false
+			"completed": false,
+			"userId": 1
 		},
 		{
 			"id": 9,
 			"boulderId": 8,
-			"completed": false
+			"completed": false,
+			"userId": 2
 		},
 		{
 			"id": 10,
 			"boulderId": 4,
-			"completed": true
+			"completed": true,
+			"userId": 1
 		}
 	]
 }
