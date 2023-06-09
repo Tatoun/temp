@@ -63,60 +63,70 @@
 		{
 			"id": 1,
 			"boulderId": 1,
+			"tries": 1,
 			"completed": false,
 			"userId": 1
 		},
 		{
 			"id": 2,
 			"boulderId": 4,
+			"tries": 3,
 			"completed": true,
 			"userId": 1
 		},
 		{
 			"id": 3,
 			"boulderId": 2,
+			"tries": 1,
 			"completed": true,
 			"userId": 1
 		},
 		{
 			"id": 4,
 			"boulderId": 1,
+			"tries": 0,
 			"completed": false,
 			"userId": 1
 		},
 		{
 			"id": 5,
 			"boulderId": 3,
+			"tries": 1,
 			"completed": false,
 			"userId": 1
 		},
 		{
 			"id": 6,
 			"boulderId": 4,
+			"tries": 1,
 			"completed": true,
 			"userId": 1
 		},
 		{
 			"id": 7,
 			"boulderId": 3,
+			"tries": 4,
 			"completed": true,
 			"userId": 2
 		},
 		{
 			"id": 8,
 			"boulderId": 5,
+			"tries": 5,
 			"completed": false,
 			"userId": 1
 		},
 		{
 			"id": 9,
 			"boulderId": 8,
+			"tries": 3,
 			"completed": false,
 			"userId": 2
 		},
 		{
 			"id": 10,
 			"boulderId": 4,
+			"tries": 1,
 			"completed": true,
 			"userId": 1
 		}
