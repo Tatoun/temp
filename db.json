@@ -1,52 +1,72 @@
 {
+	"users": [
+		{
+			"id": 1,
+			"email": "default@pebbles.com"
+		},
+		{
+			"id": 2,
+			"email": "admin@pebbles.com"
+		}
+	],
 	"boulders": [
 		{
 			"id": 1,
-			"grade": "v0"
+			"grade": "v0",
+			"userId": 2
 		},
 		{
 			"id": 2,
 			"grade": "v4",
-			"name": "an offer you can't refuse"
+			"name": "an offer you can't refuse",
+			"userId": 1
 		},
 		{
 			"id": 3,
-			"grade": "v2"
+			"grade": "v2",
+			"userId": 2
 		},
 		{
 			"id": 4,
 			"grade": "v1",
-			"name": "Rosebud"
+			"name": "Rosebud",
+			"userId": 1
 		},
 		{
 			"id": 5,
 			"grade": "v3",
-			"name": "I see deadhangs"
+			"name": "I see deadhangs",
+			"userId": 1
 		},
 		{
 			"id": 6,
 			"grade": "v0",
-			"name": "Hasta la vista, baby!"
+			"name": "Hasta la vista, baby!",
+			"userId": 1
 		},
 		{
 			"id": 7,
 			"grade": "v3",
-			"name": "Do ya feel lucky, punk?"
+			"name": "Do ya feel lucky, punk?",
+			"userId": 1
 		},
 		{
 			"id": 8,
 			"grade": "v5",
-			"name": "May the 4th"
+			"name": "May the 4th",
+			"userId": 1
 		},
 		{
 			"id": 9,
 			"grade": "v8",
-			"name": "Not in Kansas anymore"
+			"name": "Not in Kansas anymore",
+			"userId": 1
 		},
 		{
 			"id": 10,
 			"grade": "v4",
-			"name": "I'll be back"
+			"name": "I'll be back",
+			"userId": 2
 		}
 	],
 	"ascents": [
